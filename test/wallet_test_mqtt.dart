@@ -2,6 +2,8 @@ import 'dart:async' show Future;
 import 'dart:convert' show jsonEncode, jsonDecode, utf8;
 import "dart:io" show HttpClient, HttpClientRequest, HttpClientResponse;
 
+import 'package:decimal/decimal.dart';
+import 'package:mockito/mockito.dart';
 import 'package:mqtt_client/mqtt_client.dart' as mqtt;
 import "package:test/test.dart" show expect, isNot, setUp, test;
 
